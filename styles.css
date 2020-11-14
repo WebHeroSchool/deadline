@@ -54,6 +54,7 @@ body {
 
 .menu__item {
  padding: 0 13px;
+ font-family: Roboto;
 }
 
 .menu__item:last-child {
@@ -61,5 +62,5 @@ body {
 }
 
 .main-content__title {
-  font-family: Roboto;
+  font-family: pt_serifregular, arial, helvetica, sans-serif;
 }
