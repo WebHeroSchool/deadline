@@ -11,6 +11,7 @@ body {
  display: flex;
  justify-content: space-between;
  margin-bottom: 130px;
+ margin-top: 3px;
 }
 
 .logo, .menu {
@@ -19,7 +20,7 @@ body {
 
 .logo {
  position: relative;
- padding: 40px 0;
+ padding: 37px 0;
  padding-left: 44px;
  font-family: pt_serifregular, arial, helvetica, sans-serif;
  font-weight: bold;
@@ -52,11 +53,12 @@ body {
 .menu {
  display: flex;
  align-items: center;
+ margin-top: 5px;
 }
 
 .menu__item {
  position: relative;
- margin-right: 26px;
+ margin-right: 27px;
  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
  color: #000;
  text-decoration: none;
@@ -95,9 +97,9 @@ body {
 }
 
 .main__title {
- padding-top: 71px;
- margin: 0 0 35px 0;
- font: bold 66px/89px pt_serifregular, arial, helvetica, sans-serif;
+ padding-top: 77px;
+ margin: 0 0 34px 0;
+ font: bold 66px/88px pt_serifregular, arial, helvetica, sans-serif;
  letter-spacing: 3px;
 }
 
@@ -107,7 +109,7 @@ body {
 .main__subtitle {
  margin: 0 0 41px 0;
  font: 22px/26px Roboto, arial, helvetica, sans-serif;
- width: 450px;
+ max-width: 450px;
 }
 
 .main__button {
