@@ -114,21 +114,20 @@ body {
 }
 
 @keyframes bounce {
-
   0%, 20%, 60%, 100% {
     transform: translateY(0);
     transform: translateY(0);
-	}
+  }
 
   40% {
     transform: translateY(-20px);
     transform: translateY(-20px);
-	}
+  }
 
   80% {
     transform: translateY(-10px);
     transform: translateY(-10px);
-	}
+  }
 }
 
 .main__button {
@@ -295,29 +294,6 @@ body {
     height: 18px;
   }
 
-  #menu__toggle {
-    opacity: 0;
-  }
-
-  #menu__toggle:checked ~ .menu__btn > span {
-    transform: rotate(45deg);
-  }
-
-  #menu__toggle:checked ~ .menu__btn > span::before {
-    top: 0;
-    transform: rotate(0);
-  }
-
-  #menu__toggle:checked ~ .menu__btn > span::after {
-    top: 0;
-    transform: rotate(90deg);
-  }
-
-  #menu__toggle:checked ~ .menu__box {
-    visibility: visible;
-    right: 0;
-  }
-
   .menu__btn {
     display: flex;
     align-items: center;
@@ -363,8 +339,8 @@ body {
     margin: 0;
     padding: 186px 0;
     list-style: none;
-    background-color: #FFFFFF;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    background-color: #FFF;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
     transition: opacity .5s;
   }
 
@@ -373,7 +349,7 @@ body {
     display: inline-block;
     margin-bottom: 24px;
     color: #000;
-    font-family: 500 30px/35px Roboto, arial, helvetica, sans-serif;
+    font: 500 30px/35px Roboto, arial, helvetica, sans-serif;
     text-decoration: none;
     transition: opacity .5s;
     transition: transform 1s;
@@ -382,5 +358,28 @@ body {
   .menu__item:hover {
     opacity: 0.5;
     transform: scale(1.5);
+  }
+
+  #menu__toggle {
+    opacity: 0;
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
   }
 }
