@@ -104,7 +104,7 @@ body {
 }
 
 .main__title-text_highlight {
-  background: #ECF3FF;
+  background: #ecf3ff;
 }
 
 .main__subtitle {
@@ -115,6 +115,7 @@ body {
 
 @keyframes bounce {
   0%, 20%, 60%, 100% {
+    
     transform: translateY(0);
     transform: translateY(0);
   }
@@ -173,7 +174,7 @@ body {
   }
 
   .main {
-    padding: 0 51% 50px 0;
+    padding: 0 51% 17vw 0;
     background-size: 514px 439px;
   }
 
@@ -223,8 +224,8 @@ body {
   }
 
   .main {
-    padding: 0 51% 50px 0;
-    background-size: 514px 439px;
+    padding: 0 51% 17vw 0;
+    background-size: 50vw 43vw;
   }
 
   .main__title {
@@ -313,7 +314,7 @@ body {
     position: absolute;
     width: 100%;
     height: 3px;
-    background-color: #0056EC;
+    background-color: #0056ec;
     transition: opacity .5s;
   }
 
@@ -339,8 +340,8 @@ body {
     margin: 0;
     padding: 186px 0;
     list-style: none;
-    background-color: #FFF;
-    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
     transition: opacity .5s;
   }
 
